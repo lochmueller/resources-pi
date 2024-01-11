@@ -20,9 +20,11 @@ cd resources-pi
 
 sudo ln -s ~/resources-pi/etc/vzlogger.conf /etc/vzlogger.conf
 
-# No package 'microhttpd' found
+# Start service
+sudo systemctl start vzlogger
 
-# /etc/vzlogger.conf
+# Check service
+systemctl status vzlogger
 
 # https://www.photovoltaikforum.com/thread/115770-vzlogger-und-direkte-http-abfrage-der-ausgelesenen-daten/
 
