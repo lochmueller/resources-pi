@@ -18,6 +18,8 @@ git clone https://github.com/lochmueller/resources-pi.git
 cd resources-pi
 
 
+sudo ln -s ~/resources-pi/etc/vzlogger.conf /etc/vzlogger.conf
+
 # No package 'microhttpd' found
 
 # /etc/vzlogger.conf
