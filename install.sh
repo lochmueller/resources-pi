@@ -17,7 +17,7 @@ cd ~
 git clone https://github.com/lochmueller/resources-pi.git
 cd resources-pi
 
-
+# documentation https://wiki.volkszaehler.org/software/controller/vzlogger/vzlogger_conf_parameter
 sudo ln -s ~/resources-pi/etc/vzlogger.conf /etc/vzlogger.conf
 
 # Start service
@@ -28,4 +28,4 @@ systemctl status vzlogger
 
 # https://www.photovoltaikforum.com/thread/115770-vzlogger-und-direkte-http-abfrage-der-ausgelesenen-daten/
 
-
+echo "--------- done: Here is the data: http://resources-pi.local:8080/"
