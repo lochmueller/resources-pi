@@ -18,11 +18,11 @@ Installation via `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/l
 
 | Pin  | Value  | Connected | Pin | Value  | Connected |
 |------|--------|-----------|-----|--------|-----------|
-| 1    | 3V3    | -         | 2   | 5V     | -         |
+| 1    | 3V3    | elect w   | 2   | 5V     | -         |
 | 3    | GPIO2  | -         | 4   | 5V     | -         |
-| 5    | GPIO3  | -         | 6   | GND    | -         |
-| 7    | GPIO4  | water S0  | 8   | GPIO14 | -         |
-| 9    | GND    | water GND | 10  | GPIO15 | -         |
+| 5    | GPIO3  | -         | 6   | GND    | elect y   |
+| 7    | GPIO4  | water S0  | 8   | GPIO14 | elect b   |
+| 9    | GND    | water GND | 10  | GPIO15 | elect g   |
 | 11   | GPIO17 | gas S0    | 12  | GPIO18 | -         |
 | 13   | GPIO27 | -         | 14  | GND    | gas GND   |
 | 15   | GPIO22 | -         | 16  | GPIO23 | -         |
